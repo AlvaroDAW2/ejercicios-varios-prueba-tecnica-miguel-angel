@@ -1,5 +1,5 @@
 // Ej1. Recorrer un array y contar cual es la diferencia entre un valor dado y cada uno de los del array.
-export function diferenciaArray (array: number[], num: number): number[] {
+export function differenceArray(array: number[], num: number): number[] {
   const differenceArray: number[] = []
   array.forEach(n => {
     const difference = num - n
@@ -10,4 +10,4 @@ export function diferenciaArray (array: number[], num: number): number[] {
 }
 
 const array = [1, 67, 53, 2, 6, 10, 98]
-console.log(diferenciaArray(array, 4))
+console.log(differenceArray(array, 4))

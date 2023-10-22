@@ -1,24 +1,25 @@
 {
   "compilerOptions": {
-     "target": "ESNext",
-       "module": "ESNext",
-        "moduleResolution": "Node",
- 
-     "rootDir": "./src",
-     "outDir": "./dist",
-     "esModuleInterop": true,
-     "forceConsistentCasingInFileNames": true,
-     "strict": true,
-      "skipLibCheck": true
-   },
-   "ts-node": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "ts-node": {
     "esm": true
-   },
-   "include": [
-      "./src",
-      ".eslintrc.cjs",
-      ".prettierrc",
-      "./babel.config.cjs"
-   ],
-   "exclude": []
- }
+  },
+  "include": [
+    "./src",
+    ".eslintrc.cjs",
+    ".prettierrc",
+    "./babel.config.cjs",
+    "jest.config.js"
+  ],
+  "exclude": []
+}
