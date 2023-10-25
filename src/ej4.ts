@@ -18,10 +18,9 @@ export function sortPlayers(
   players: Player[],
   order: 'asc' | 'desc'
 ): Player[] {
-  return players.sort((p1, p2) => {
-    if (order === 'asc') return p1.compareTo(p2)
-    else return p2.compareTo(p1)
-  })
+  return players.sort((p1, p2) =>
+    order === 'asc' ? p1.compareTo(p2) : p2.compareTo(p1)
+  )
 }
 
 const player1 = new Player(50)

@@ -2,7 +2,7 @@
 export function differenceArray(array: number[], num: number): number[] {
   const differenceArray: number[] = []
   array.forEach(n => {
-    const difference = num - n
+    const difference = Math.abs(num - n)
     differenceArray.push(difference)
   })
 
