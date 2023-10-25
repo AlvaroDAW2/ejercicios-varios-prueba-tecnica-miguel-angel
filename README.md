@@ -1,4 +1,4 @@
-# Ejercicios Varios Miguel Ángel - Prueba Técnica Empresa Real
+# Prueba Técnica Empresa Real
 
 ---
 
